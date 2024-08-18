@@ -1,0 +1,9 @@
+import{r as d}from"./index-RYns6xqu.js";var f={exports:{}},u={};/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var y=d,j=Symbol.for("react.element"),g=Symbol.for("react.fragment"),v=Object.prototype.hasOwnProperty,h=y.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,E={key:!0,ref:!0,__self:!0,__source:!0};function x(o,e,c){var t,s={},a=null,p=null;c!==void 0&&(a=""+c),e.key!==void 0&&(a=""+e.key),e.ref!==void 0&&(p=e.ref);for(t in e)v.call(e,t)&&!E.hasOwnProperty(t)&&(s[t]=e[t]);if(o&&o.defaultProps)for(t in e=o.defaultProps,e)s[t]===void 0&&(s[t]=e[t]);return{$$typeof:j,type:o,key:a,ref:p,props:s,_owner:h.current}}u.Fragment=g;u.jsx=x;u.jsxs=x;f.exports=u;var r=f.exports;const N=(o=!1)=>{const[e,c]=d.useState(o);return[e,s=>c(a=>s??!a)]},O="_wrapper_1gozl_1",k="_count_1gozl_8",w="_buttons_1gozl_14",n={wrapper:O,count:k,buttons:w},b=()=>{const[o,e]=N();return r.jsxs("div",{className:n.wrapper,children:[r.jsxs("p",{className:n.count,children:["Значение: ",r.jsx("code",{children:String(o)})]}),r.jsxs("div",{className:n.buttons,children:[r.jsx("button",{type:"button",onClick:()=>e(),className:n.button,children:"Переключить"}),r.jsx("button",{type:"button",onClick:()=>e(!0),className:n.button,children:"Установить (true)"}),r.jsx("button",{type:"button",onClick:()=>e(!1),className:n.button,children:"Установить (false)"})]})]})},D={title:"Хуки/useBoolean",component:b},R=()=>r.jsx(b,{}),l=R.bind({});var i,_,m;l.parameters={...l.parameters,docs:{...(i=l.parameters)==null?void 0:i.docs,source:{originalSource:"() => <Demo />",...(m=(_=l.parameters)==null?void 0:_.docs)==null?void 0:m.source}}};const C=["Default"];export{l as Default,C as __namedExportsOrder,D as default};
